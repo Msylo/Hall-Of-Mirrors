@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
+    <script src="js/navbar.js" type="text/javascript" defer></script>
+    <script src="js/index-slideshow.js" type="text/javascript" defer></script>
+    <script src="js/search-expand.js" type="text/javascript" defer></script>    
+</head>
+<body>
+    <header-component></header-component>
+    <section class="slide-show-container">
+        <div class="image-slider">
+            <div class="slide active">
+                <div class="slide-img" style="background-image: url('images/carousel\ image\ 1.png');">
+                </div>
+                <div class="slide-info">
+                    <h3>Custom Solutions</h3>
+                    <p>We listen to your needs and craft applications that fit your unique business model.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-img" style="background-image: url('images/carousel\ image\ 2.png');">
+                </div>
+                <div class="slide-info">
+                    <h3>User-Centric Design</h3>
+                    <p>Our intuitive designs ensure an exceptional user experience for your clients.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <div  class="slide-img" style="background-image: url('images/carousel\ image\ 3.png');">
+                </div>
+                <div class="slide-info">
+                    <h3>Ongoing Support</h3>
+                    <p>Our partnership doesn’t end at launch—we provide continuous support and maintenance.</p>
+                </div>
+            </div>
+            <div class="image-slider-nav">
+                <div class="slider-btn active"></div>
+                <div class="slider-btn"></div>
+                <div class="slider-btn"></div>
+            </div>
+        </div>
+    </section>
+    <main>
+        <div class="video-container">
+            <video controls>
+                <source src="videos/2887463-hd_1920_1080_25fps.mp4" type="video/mp4">
+            </video>
+            <p>At Hall of Mirrors, we specialize in creating tailored web applications that elevate your business to new heights. Whether you need a sleek e-commerce platform, a robust content management system, or a dynamic client portal, our expert team is here to bring your vision to life.</p>
+        </div>
+    </main>
+    <footer-component></footer-component>
+</body>
+</html>

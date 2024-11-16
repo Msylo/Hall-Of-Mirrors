@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <script src="components/header.js" type="text/javascript" defer></script>
+        <script src="components/footer.js" type="text/javascript" defer></script>
+        <script src="js/modalscript.js" type="text/javascript" defer></script>
+        <script src="js/navbar.js" type="text/javascript" defer></script>
+        <script src="js/search-expand.js" type="text/javascript" defer></script>  
+    </head>
+    <body>
+        <header-component></header-component>
+        <h1>Portfolio</h1>
+        <main style="display: flex; flex-direction: row; min-height: 600px;">
+            <section class="filter-section">
+                <div class="filter-options">
+                    <div class="filter-header">
+                        <button><i class="material-icons">tune</i></button>
+                        <h2 style="padding: 10px;">Filters</h2>
+                    </div>
+                </div>
+                <div class="selected-filters"></div>
+            </section>
+            <section class="portfolio-section">
+                <div>
+                    <div class="card-container">
+                       <div class="card" data-name="p-1">
+                          <img src="images/portfolio example 1.png" alt="">
+                          <h3>Name</h3>
+                       </div>
+
+                       <div class="card" data-name="p-2">
+                          <img src="images/portfolio example 2.png" alt="">
+                          <h3>Name</h3>
+                       </div>
+                 
+                       <div class="card" data-name="p-3">
+                          <img src="images/portfolio example 3.png" alt="">
+                          <h3>Name</h3>
+                       </div>
+                 
+                       <div class="card" data-name="p-4">
+                          <img src="images/portfolio example 4.png" alt="">
+                          <h3>Name</h3>
+                       </div>
+                 
+                       <div class="card" data-name="p-5">
+                          <img src="images/portfolio example 5.png" alt="">
+                          <h3>Name</h3>
+                       </div>                 
+                    </div>
+                </div>
+                <div class="card-preview">
+                    <div class="preview" data-target="p-1">
+                       <i class="close">&times;</i>
+                       <img src="images/portfolio example 1.png" alt="">
+                       <h3>Name</h3>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                    </div>
+                 
+                    <div class="preview" data-target="p-2">
+                       <i class="close">&times;</i>
+                       <img src="images/portfolio example 2.png" alt="">
+                       <h3>Name</h3>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                    </div>
+                 
+                    <div class="preview" data-target="p-3">
+                       <i class="close">&times;</i>
+                       <img src="images/portfolio example 3.png" alt="">
+                       <h3>Name</h3>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                    </div>
+                 
+                    <div class="preview" data-target="p-4">
+                       <i class="close">&times;</i>
+                       <img src="images/portfolio example 4.png" alt="">
+                       <h3>Name</h3>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                    </div>
+                 
+                    <div class="preview" data-target="p-5">
+                       <i class="close">&times;</i>
+                       <img src="images/portfolio example 5.png" alt="">
+                       <h3>Name</h3>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+                    </div>                 
+                 </div>
+            </section>
+        </main>
+        <footer-component></footer-component>
+    </body>
+</html>

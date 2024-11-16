@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Estimation of Our Services</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <script src="components/header.js" type="text/javascript" defer></script>
+        <script src="components/footer.js" type="text/javascript" defer></script>
+        <script src="js/navbar.js" type="text/javascript" defer></script>
+        <script src="js/search-expand.js" type="text/javascript" defer></script>     
+    </head>
+    <body>
+        <header-component></header-component>
+        <h1>Estimation of Our Services</h1>
+        <main>
+            <div class="quote-container">
+                <form action="/submit-quotation" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+            
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+            
+                    <label for="website-type">Type of Website:</label>
+                    <select id="website-type" name="website_type">
+                        <option value="personal-blog">Personal Blog</option>
+                        <option value="business-website">Business Website</option>
+                        <option value="ecommerce-store">E-commerce Store</option>
+                        <option value="portfolio">Portfolio</option>
+                        <option value="web-application">Web Application</option>
+                    </select>
+            
+                    <label for="project-description">Description of Your Project:</label>
+                    <textarea id="project-description" name="project_description" rows="4" required></textarea>
+            
+                    <label for="design-preferences">Design Preferences:</label>
+                    <textarea id="design-preferences" name="design_preferences" rows="2"></textarea>
+            
+                    <label for="examples">Examples of Websites You Like:</label>
+                    <input type="text" id="examples" name="examples">
+            
+                    <label for="budget">Estimated Budget:</label>
+                    <input type="text" id="budget" name="budget">
+            
+                    <label for="pages">Estimated Number of Pages:</label>
+                    <input type="text" id="pages" name="pages">
+            
+                    <label for="launch-date">Desired Launch Date:</label>
+                    <input type="date" id="launch-date" name="launch_date">
+            
+                    <label for="ongoing-support">Do you need ongoing support after launch?</label>
+                    <input type="checkbox" id="ongoing-support" name="ongoing_support" value="yes">
+                    </select>
+            
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </main>
+        <footer-component></footer-component>
+    </body>
+</html>

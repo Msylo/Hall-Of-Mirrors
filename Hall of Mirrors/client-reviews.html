@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Client Reviews</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
+    <script src="js/navbar.js" type="text/javascript" defer></script>
+    <script src="js/search-expand.js" type="text/javascript" defer></script>
+    <script src="js/review.js" type="text/javascript" defer></script>    
+</head>
+<body>
+    <header-component></header-component>
+    <h1>Client Reviews</h1>
+    <main style="display: flex; flex-direction: row;">
+        <div class="customer-review-main">
+            <div class="sort-dropdown" style="float:left;">
+                <button class="sortbtn">Sort</button>
+                <div class="sort-dropdown-content" style="left:0;">
+                    <a class="sort-option" href="#">Ratings</a>
+                    <a class="sort-option" href="#">Name</a>
+                    <a class="sort-option" href="#">Date</a>
+                </div>
+            </div>
+            <section class="reviews-container">
+
+            </section>
+        </div>
+    </main>
+    <footer-component></footer-component>
+</body>
+</html>
